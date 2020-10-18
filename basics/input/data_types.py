@@ -12,4 +12,4 @@ weight = float(input())
 
 bmi = weight/(height**2)
 
-print(name, "your bmi is", bmi)
+print(name, "your bmi is {:.2f}".format(bmi))
