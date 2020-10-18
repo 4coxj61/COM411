@@ -1,8 +1,6 @@
-# Ask user for place
 print("Where should I look?")
 place = input()
 
-# Check the bedroom
 if (place == "in the bedroom"):
     print("Where in the bedroom should I look?")
     bedroom_place = input()
@@ -12,7 +10,6 @@ if (place == "in the bedroom"):
     else:
         print("Found some mess but no battery.") 
 
-# Check the bathroom
 elif (place == "in the bathroom"):
     print("Where in the bathroom should I look?")
     bathroom_place = input()
@@ -22,7 +19,6 @@ elif (place == "in the bathroom"):
     else:
         print("Found a wet surface but no battery.")
 
-# Check the lab
 elif (place == "in the lab"):
     print("Where in the lab should I look?")
     lab_place = input()
@@ -32,7 +28,5 @@ elif (place == "in the lab"):
     else:
         print("Found some tools but no battery.")
 
-# Handle unknown place
 else:
     print("I am not sure where that place is located.")
- 
